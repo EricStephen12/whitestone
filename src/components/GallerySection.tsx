@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const GallerySection = () => {
   return (
-    <section className="bg-background py-20 md:py-32 px-6 md:px-12 lg:px-24">
+    <section id="gallery" className="bg-background py-20 md:py-32 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         {/* Header — left aligned */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-14">

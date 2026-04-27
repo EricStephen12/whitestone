@@ -58,46 +58,17 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right: Image composition */}
+        {/* Right: Image */}
         <div className="relative order-1 lg:order-2 min-h-[50vh] lg:min-h-screen">
-          {/* Main hero image */}
-          <div className="absolute inset-0">
-            <Image
-              src="/images/hero.jpg"
-              alt="Whitestone Event Place"
-              fill
-              className="object-cover"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/40 to-transparent lg:block hidden" />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent lg:hidden" />
-          </div>
-
-          {/* Floating accent image */}
-          <div className="hidden lg:block absolute bottom-12 -left-16 w-56 xl:w-64 aspect-[3/4] z-20 shadow-2xl">
-            <Image
-              src="/images/gate.jpg"
-              alt="Whitestone Entrance"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 border border-accent/30" />
-          </div>
-
-          {/* Small detail image */}
-          <div className="hidden lg:block absolute top-28 right-8 w-36 xl:w-44 aspect-square z-20 shadow-xl">
-            <Image
-              src="/images/hall3.jpg"
-              alt="Whitestone Interior"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 border border-white/20" />
-          </div>
-
-          {/* Decorative frame */}
-          <div className="hidden lg:block absolute top-20 right-0 w-48 h-48 border border-accent/20 z-10 translate-x-6 -translate-y-6" />
+          <Image
+            src="/images/hero.jpg"
+            alt="Whitestone Event Place"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent lg:hidden" />
         </div>
       </div>
 

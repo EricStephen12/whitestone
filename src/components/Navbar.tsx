@@ -17,9 +17,9 @@ const Navbar = () => {
 
   const links = [
     { name: 'Venues', href: '#venues' },
-    { name: 'Experiences', href: '#experiences' },
-    { name: 'Occasions', href: '#occasions' },
-    { name: 'Concierge', href: '#concierge' },
+    { name: 'Availability', href: '#availability' },
+    { name: 'Gallery', href: '#gallery' },
+    { name: 'Location', href: '#location' },
   ];
 
   return (

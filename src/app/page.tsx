@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import VenueShowcase from '@/components/VenueShowcase';
+import AvailabilitySection from '@/components/AvailabilitySection';
 import GallerySection from '@/components/GallerySection';
 import ReviewsSection from '@/components/ReviewsSection';
 import MapSection from '@/components/MapSection';
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <VenueShowcase />
+      <AvailabilitySection />
       <GallerySection />
       <ReviewsSection />
       <MapSection />

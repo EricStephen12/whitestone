@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(40 20% 98%);
+  --color-foreground: hsl(165 10% 15%);
+  --color-primary: hsl(165 35% 12%);
+  --color-primary-foreground: hsl(40 45% 75%);
+  --color-accent: hsl(40 45% 75%);
+  --color-accent-gold: #D4AF37;
+  --color-border: hsl(165 10% 90%);
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-accent;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-6 md:py-32 md:px-12 lg:px-24;
+  }
+  
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20;
+  }
+}

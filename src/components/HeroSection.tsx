@@ -69,6 +69,7 @@ const HeroSection = () => {
               className="object-cover"
               priority
             />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent" />
             <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/40 to-transparent lg:block hidden" />
             <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent lg:hidden" />
           </div>
